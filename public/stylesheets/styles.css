@@ -15,6 +15,7 @@ body {
     width: 450px;
     display: inline-block;
     font-size: 2;
+    font-family: cursive;
 }
 .header_main h2 {
     width:430px;
@@ -92,7 +93,7 @@ body {
     margin:5px;
 }
 .site_img {
-    width:290px;
+    width:291px;
     height: 155px;
 }
 .header_bar {

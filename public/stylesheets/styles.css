@@ -1,92 +1,116 @@
 body {
     font-family: sans-serif;
-    width:1200px;    
+    width:1000px;  
+    height: 1000px;
 }
 .header_main {
     display:block;
     background-color:white;
     margin:0;
-    width: 100%;
+    width: 950px;
+    padding-left: 20px;
+    
 }
 .header_main h1{
-    width: 550px;
+    width: 450px;
     display: inline-block;
+    font-size: 2;
 }
 .header_main h2 {
-    width: 600px;
-    vertical-align: top;
+    width:430px;
     display: inline-block;
+    font-size: 20px;
     text-align: right;
-}
-#about{
-     padding: 10px 10px;
-    margin:0;
-    display: block;
-    width: 100%;
-    background-color: grey;
-    color: white;
+
 }
 .container {
-    
+    width:930px;  
+    height: 940px;
     padding: 20px;
     background: -webkit-linear-gradient(#311f25, #866e7a, #311f25); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#311f25, #866e7a, #311f25); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#311f25, #866e7a, #311f25); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#311f25, v, #311f25); /* Standard syntax (must be last) */
 }
- 
-
 #me {
-    ;
     display: inline-block;
     height:275px;
     border: grey solid 5px;
     vertical-align: top;
 }
+#about{
+    display: block;
+    width: 455px;
+    color: white;
+    padding:10px;
+    margin:0;
+    background: -webkit-linear-gradient(#a7a8ac, #868793, #a7a8ac); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#a7a8ac, #868793, #a7a8ac); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#a7a8ac, #868793, #a7a8ac); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#a7a8ac, #868793, #a7a8ac); /* Standard syntax (must be last) */
+}
 .aboutme {
-    width: 600px;
+    width: 475px;
     display: inline-block;
     vertical-align: top;
     background-color: white;
-    margin:0px 20px;
-    padding: 10px;
-    
+    margin-left: 20px;
+    height: 280px;
 }
+
+.aboutme p{
+    padding:0px 10px;
+}
+
 .section{
     display: inline-block;
-   width:390px;
-   margin: 10px;
+   width:293px;
+   margin-top:20px;
    vertical-align: top;
    background-color: white;
-   height: 800px;
+   height: 630px; /* For Safari 5.1 to 6.0 */
+   
+  background: -webkit-linear-gradient(left, #fdfdfd , #dbcdda); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #fdfdfd, #dbcdda); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #fdfdfd, #dbcdda); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #fdfdfd , #dbcdda); /* Standard syntax */
 }
 .section p {
-    padding: 10px;
-    width: 370px;
-    height: 240px;
+    width: 260px;
+    height: 200px;
+    padding: 0px 10px;
+    text-align: justify;
+    
+}
+
+#lamode, #familycontacts {
+    margin-right:20px;
 }
 .tech_icons img{
-    height: 50px;
-    width: 50px;
-    margin:10px;
+    height: 40px;
+    width: 40px;
+    margin:5px;
 }
 .site_img {
-    width:390px;
-    height: 222px;
+    width:280px;
+    height: 155px;
 }
 .header_bar {
     padding: 10px 10px;
     margin:0;
     display: block;
     width: 400;
-    background-color: grey;
     color: white;
+    background: -webkit-linear-gradient(#a7a8ac, #868793, #a7a8ac); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#a7a8ac, #868793, #a7a8ac); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#a7a8ac, #868793, #a7a8ac); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#a7a8ac, #868793, #a7a8ac); /* Standard syntax (must be last) */
 }
 button{
     display: block;
     margin: auto;
     color:white;
-    background-color: green;
+    background-color: #3c7859;
     border-radius: 10px;
     padding:5px 8px;
     
@@ -95,10 +119,8 @@ button{
     background-color: white;
     text-align: center;
     padding-bottom: 10px;
-   
-    
-    
-}
+    width: 970px;
+  }
  .footer a{
      font-style: italic;
      padding-top: 10
@@ -108,9 +130,5 @@ button{
  }
  .footer h4{
      padding-top: 20px;
-     
- }
- .footer a{
-     text-decoration: none;
      
  }

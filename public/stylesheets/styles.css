@@ -63,8 +63,8 @@ body {
 }
 
 .section{
-    display: inline-block;
-   width:293px;
+   display: inline-block;
+   width:292px;
    margin-top:20px;
    vertical-align: top;
    background-color: white;
@@ -84,7 +84,7 @@ body {
 }
 
 #lamode, #familycontacts {
-    margin-right:20px;
+    margin-right:19px;
 }
 .tech_icons img{
     height: 40px;
@@ -92,7 +92,7 @@ body {
     margin:5px;
 }
 .site_img {
-    width:280px;
+    width:290px;
     height: 155px;
 }
 .header_bar {
@@ -120,6 +120,7 @@ button{
     text-align: center;
     padding-bottom: 10px;
     width: 970px;
+    margin-left: -20px;
   }
  .footer a{
      font-style: italic;
